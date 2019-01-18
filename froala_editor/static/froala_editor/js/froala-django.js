@@ -14,6 +14,7 @@ function getCookie(name) {
   return cookieValue;
 }
 
+/* this seems like a bug - it appends to ALL textareas
 if (typeof django !== 'undefined' && typeof django.jQuery !== 'undefined') {
   (function ($) {
     $(document).on('formset:added', function (event, $row, formsetName) {
@@ -24,3 +25,4 @@ if (typeof django !== 'undefined' && typeof django.jQuery !== 'undefined') {
     });
   })(django.jQuery);
 }
+*/
